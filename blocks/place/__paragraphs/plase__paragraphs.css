@@ -1,0 +1,9 @@
+.plase__paragraphs {
+  grid-area: paragraphs;
+}
+
+@media (max-width: 400px) {
+  .plase__paragraphs {
+    padding: 0 16px;
+  }
+}
