@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  margin-top: 92px;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 400px) {
+  .footer {
+    margin-top: 64px;
+    flex-direction: column;
+  }
+}
