@@ -3,31 +3,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 1184px;
-  height: 740px;
-  position: relative;
   margin: 92px auto 0;
 }
 
-@media (max-width: 1024px) {
-  .cover {
-    height: 640px;
-  }
-}
-
-@media (max-width: 900px) {
-  .cover {
-    height: 480px;
-  }
-}
-
-@media (max-width: 560px) {
-  .cover {
-    height: 320px;
-  }
-}
 @media (max-width: 400px) {
   .cover {
-    height: 200px;
     margin: 66px auto 0;
   }
 }

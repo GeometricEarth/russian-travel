@@ -5,11 +5,7 @@
   align-items: center;
   justify-content: center;
   background: #2a2c2f30;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
+  min-height: 740px;
   transition: all ease-out 0.4s;
   text-decoration: none;
   color: #fff;
@@ -19,8 +15,27 @@
   background: #2a2c2f80;
 }
 
+@media (max-width: 1024px) {
+  .cover__wrapper {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 900px) {
+  .cover__wrapper {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cover__wrapper {
+    min-height: 320px;
+  }
+}
+
 @media (max-width: 400px) {
   .cover__wrapper {
     gap: 16px;
+    min-height: 200px;
   }
 }
